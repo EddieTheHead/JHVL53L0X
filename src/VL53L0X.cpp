@@ -14,7 +14,9 @@
 #include <cstdio>
 #include <unistd.h>
 #include <errno.h>
-
+extern "C" {
+       #include <i2c/smbus.h>
+}
 
 // Defines /////////////////////////////////////////////////////////////////////
 
